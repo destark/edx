@@ -1,0 +1,12 @@
+p {
+    font-style: italic;
+}
+article p {
+    font-size: x-small;
+}
+article > p {
+    color: red;
+}
+article > section > p {
+    color: blue;
+}
