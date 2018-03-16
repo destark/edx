@@ -13,7 +13,7 @@ header{
     padding: 20px 50px;
 }
 body{
-    font-family: 'News Cycle';
+    font-family: 'News Cycle' !important;
 }
 header{
     font-family: 'Contail One';
@@ -36,11 +36,6 @@ article > time{
 }
 main{
     padding: 5px 10px;
-}
-article{
-    margin: 5px 0px;
-    padding: 5px 5px;
-    box-shadow: -1px -1px 6px #888888;
 }
 
 @media not print{
@@ -79,25 +74,9 @@ article{
         display: none;
     }
 }
-
-section#carousel > figure > img{
-    display: none;
-    margin: 0px auto;
-}
-
-section#carousel > figure.visible > img{
-    display: block;
-    position: relative;
-    overflow: hidden;
-}
-
-section#carousel > figure > figcaption{
-    display: none;
-}
-
-section#carousel > figure.visible > figcaption{
-    display: block;
+.carousel-inner {
     text-align: center;
-    font-weight: bold;
-    font-size: 1.5em;
+}
+.carousel .item > img {
+    display: inline-block;
 }
